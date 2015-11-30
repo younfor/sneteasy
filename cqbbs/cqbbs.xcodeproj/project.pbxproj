@@ -19,10 +19,7 @@
 		180705E21C0ACB320077F0AD /* CQNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705E11C0ACB320077F0AD /* CQNavViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		180705E41C0ACFA00077F0AD /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705E31C0ACFA00077F0AD /* LeftViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		180705E61C0ACFAC0077F0AD /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705E51C0ACFAC0077F0AD /* RightViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		18B14F411C0B12E700DF7511 /* icon_rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B14F3C1C0B12E700DF7511 /* icon_rightarrow.png */; settings = {ASSET_TAGS = (); }; };
-		18B14F421C0B12E700DF7511 /* icon_rightarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B14F3D1C0B12E700DF7511 /* icon_rightarrow@2x.png */; settings = {ASSET_TAGS = (); }; };
 		18B14F431C0B12E700DF7511 /* red_line_and_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B14F3E1C0B12E700DF7511 /* red_line_and_shadow@2x.png */; settings = {ASSET_TAGS = (); }; };
-		18B14F441C0B12E700DF7511 /* SUNSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B14F401C0B12E700DF7511 /* SUNSlideSwitchView.m */; settings = {ASSET_TAGS = (); }; };
 		18EE928F1C0B39AE003CB2C0 /* CQSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE928E1C0B39AE003CB2C0 /* CQSegmentView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -62,11 +59,7 @@
 		180705E11C0ACB320077F0AD /* CQNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQNavViewController.swift; sourceTree = "<group>"; };
 		180705E31C0ACFA00077F0AD /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		180705E51C0ACFAC0077F0AD /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
-		18B14F3C1C0B12E700DF7511 /* icon_rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_rightarrow.png; sourceTree = "<group>"; };
-		18B14F3D1C0B12E700DF7511 /* icon_rightarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_rightarrow@2x.png"; sourceTree = "<group>"; };
 		18B14F3E1C0B12E700DF7511 /* red_line_and_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red_line_and_shadow@2x.png"; path = "SlideSwitch/resources/red_line_and_shadow@2x.png"; sourceTree = "<group>"; };
-		18B14F3F1C0B12E700DF7511 /* SUNSlideSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNSlideSwitchView.h; sourceTree = "<group>"; };
-		18B14F401C0B12E700DF7511 /* SUNSlideSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNSlideSwitchView.m; sourceTree = "<group>"; };
 		18B14F451C0B13AC00DF7511 /* cqbbs-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cqbbs-Bridging-Header.h"; sourceTree = "<group>"; };
 		18EE928E1C0B39AE003CB2C0 /* CQSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQSegmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,7 +154,6 @@
 		180705E81C0AD06B0077F0AD /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
-				18B14F3A1C0B12E700DF7511 /* SlideSwitch */,
 				18B14F3E1C0B12E700DF7511 /* red_line_and_shadow@2x.png */,
 				18B14F451C0B13AC00DF7511 /* cqbbs-Bridging-Header.h */,
 			);
@@ -178,25 +170,6 @@
 				180705DB1C0AB8820077F0AD /* CQTabController.swift */,
 			);
 			name = Main;
-			sourceTree = "<group>";
-		};
-		18B14F3A1C0B12E700DF7511 /* SlideSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				18B14F3B1C0B12E700DF7511 /* resources */,
-				18B14F3F1C0B12E700DF7511 /* SUNSlideSwitchView.h */,
-				18B14F401C0B12E700DF7511 /* SUNSlideSwitchView.m */,
-			);
-			path = SlideSwitch;
-			sourceTree = "<group>";
-		};
-		18B14F3B1C0B12E700DF7511 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				18B14F3C1C0B12E700DF7511 /* icon_rightarrow.png */,
-				18B14F3D1C0B12E700DF7511 /* icon_rightarrow@2x.png */,
-			);
-			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,11 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				180705B41C0AAB4C0077F0AD /* LaunchScreen.storyboard in Resources */,
-				18B14F421C0B12E700DF7511 /* icon_rightarrow@2x.png in Resources */,
 				180705B11C0AAB4C0077F0AD /* Assets.xcassets in Resources */,
 				180705AF1C0AAB4C0077F0AD /* Main.storyboard in Resources */,
 				18B14F431C0B12E700DF7511 /* red_line_and_shadow@2x.png in Resources */,
-				18B14F411C0B12E700DF7511 /* icon_rightarrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +306,6 @@
 				180705DC1C0AB8820077F0AD /* CQTabController.swift in Sources */,
 				180705E61C0ACFAC0077F0AD /* RightViewController.swift in Sources */,
 				180705E01C0ABF830077F0AD /* CQNewsViewController.swift in Sources */,
-				18B14F441C0B12E700DF7511 /* SUNSlideSwitchView.m in Sources */,
 				180705AC1C0AAB4C0077F0AD /* CQDrawerViewController.swift in Sources */,
 				180705E41C0ACFA00077F0AD /* LeftViewController.swift in Sources */,
 				180705AA1C0AAB4C0077F0AD /* AppDelegate.swift in Sources */,
